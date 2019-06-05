@@ -14,6 +14,7 @@ const propTypes = {
 };
 
 class HomeContainer extends Component {
+  // *** Depreciated  //
   componentWillMount() {
     this.props.actions.trivia.getQuestions();
   }
